@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Activity Submission</title>
+        <link rel='stylesheet' href='formatting_and_fonts.css'/>
+    </head>
+    <body bgcolor="#FFFFFF">
+        <h1>Activity Submission</h1>
+        <p>Greenkeepers USA is a student-led environmental nonprofit trying to reach community based solutions to fight climate change and encourage sustainable practices. Our mission with this website is to encourage people around Fremont to switch to environmentally conscious methods of transportation like biking and walking when possible. When you travel somewhere utilizing a sustainable method of transportation, you can record a submission that can earn you points. These points can later be traded in exchange for discounts, products, and services from partnering local businesses. Help us on our journey to increase healthy, sustainable transportation, and support local businesses along the way!<p>
+        
+        <h2><span style= "color:#000000"; font-family: Arial, Helvetica, sans-serif;>Add a Submission</span></h2>
+        <p id="description"> Enter your name (first name and last name), phone number, and email down below. Then enter your most recent activity.</p>
+        <FORM action="/confirm" method="post">
+            <table table border="1">
+                <tr><td>First name:</td> <td><input type="text" name="first_name"/></td></tr>
+                <tr><td>Last name:</td> <td><input type="text" name="last_name"/></td></tr>
+                <tr><td>Phone:</td><td><input type="text" name="phone"/></td></tr>
+                <tr><td>Email:</td><td><input type="text" name="email"/></td></tr>
+                <tr><td>Activity:</td><td><input type="text" name="activity"/></td></tr>
+            </table>
+            <input type="reset" value="reset"/>
+            <input type="submit" value="add activity"/><br>
+        </FORM>
+    </body>
+</html>
